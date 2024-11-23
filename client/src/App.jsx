@@ -1,10 +1,15 @@
+import Register from "./Register"
 
 function App() {
 
   return (
-   <div className='bg-red-500'>test123</div>
+    //import components
+    <>
+      <Register/>
+    </>
+ 
   )
-  
+
 }
 
 export default App
